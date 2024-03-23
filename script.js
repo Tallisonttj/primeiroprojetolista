@@ -31,7 +31,7 @@ function newIten  (){
 
 function add(e){
 
-    if(e.code === 'Enter'){
+    if(e.key === 'Enter' || e.which === 13){
 
     if(input.value != ''){
     let newLi = document.createElement('li')
